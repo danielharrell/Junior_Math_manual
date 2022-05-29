@@ -1,0 +1,147 @@
+\item \label{intxn}Let $y=x^n$, where $n$ is any nonnegative number.  Suppose again that the sum begins at the point $A$ where $x=0$. We proceed just as in the previous two examples, finding a quantity $v$ such that $y\,dx = dv$ and $v=0$ when $x=0$, where the sum begins, and apply the first fundamental theorem.
+We know from the rules of calculus that 
+\setlength{\jot}{1.5ex}
+\begin{eqnarray*}
+d\left(\frac{x^{(n+1)}}{n+1}\right) & = & \frac{d(x^{(n+1)})}{n+1}\\
+& = &\frac{(n+1)x^n\,dx}{n+1}\\
+& = & x^n\,dx\\
+& = & y\,dx.
+\end{eqnarray*}
+Since 
+$$\frac{x^{(n+1)}}{n+1} =0$$
+when $x=0$, where the sum begins, we therefore set
+$$v = \frac{x^{(n+1)}}{n+1},$$
+and use the first fundamental theorem to conclude that 
+\begin{eqnarray*}
+\mbox{area }ADE & = & \int\!y\,dx\\
+& = & \int\!dv\\
+&  = & v\\
+& = & \frac{x^{(n+1)}}{n+1}.
+\end{eqnarray*}
+\setlength{\jot}{\oldjot}
+Therefore the equation of the quadratrix $AFG$ is in this case 
+$$v = \frac{x^{(n+1)}}{n+1}.$$
+
+\item Let $y=x^n$ again, where $n$ is any nonnegative number.  But now suppose that the sum begins at some other point $H$ where $x$ is no longer equal to zero. See Figure~ .  There $HFG$ is now the quadratrix, $x = AE$, $y=DE$ and $EF = \int y\,dx$ is equal to the area $KHED$.  To use the first fundamental theorem we need to find a quantity $v$ such that 
+\begin{enumerate}
+\item $dv = y\,dx,$ and 
+\item $v = 0$ at the point $H$ where the sum begins.
+\end{enumerate}
+Then, according to the first fundamental theorem,
+$$v= \int y\,dx.$$
+
+
+
+As in the previous example, we know from the rules of calculus that 
+\setlength{\jot}{1.5ex}
+$$
+d\left(\frac{x^{(n+1)}}{n+1}\right)  =  x^n\,dx = y\,dx.
+$$
+
+But now, unlike in the previous examples,  $\frac{x^{(n+1)}}{n+1}$ is not equal to zero at the point $H$ where the sum begins.  It is instead equal to some unknown constant $C$.  Let 
+$$v = \frac{x^{(n+1)}}{n+1} -C.$$
+Then 
+\begin{enumerate}
+\item
+$$dv = d\left(\frac{x^{(n+1)}}{n+1}\right) -d(C) = x^n\,dx - 0 = x^n\,dx = y\,dx,\mbox{ and}$$
+\item at the point $H$ where the sum begins, $v= C - C = 0$.
+\end{enumerate}
+
+Therefore, according to the first fundamental theorem, if 
+$$v = \frac{x^{(n+1)}}{n+1}- C,$$
+then
+\begin{eqnarray*}
+\mbox{area }KHDE & = & \int\!y\,dx\\
+& = & \int\!dv\\
+&  = & v\\
+& = & \frac{x^{(n+1)}}{n+1} -C.
+\end{eqnarray*}
+\setlength{\jot}{\oldjot}
+Therefore the equation of the quadratrix $HFG$ is in this case 
+$$v= EF = \frac{x^{(n+1)}}{n+1} -C .$$
+
+This example is typical of cases where we do not know where a sum begins.  If we want to find $\int y\,dx$, we find {\it some} $v$ such that $dv = y\,dx$, and then subtract an arbitrary constant $C$ to insure the $v - C = 0$ where the sum begins.  
+
+
+
+\item Let $y = x^3 + x^2$, and suppose we begin the sum $\int y\,dx$ at some unknown point, as in the previous example. 
+Now 
+according to the rules of calculus,
+$$d\left(\frac{x^4}{4} + \frac{x^3}{3}\right) = x^3\,dx + x^2\,dx  = y\,dx.$$. 
+But since we do not know where the sum begins, we do not know that $\frac{x^4}{4} + \frac{x^3}{3}$ is equal to zero at the beginning of the sum.  Suppose that at the point where the sum begins,
+$$\frac{x^4}{4} + \frac{x^3}{3} = C.$$ 
+  Then set
+$v = \frac{x^4}{4} + \frac{x^3}{3} -C$.
+Again it follows that 
+\begin{enumerate}
+\item $dv = x^3\,dx + x^2\,dx  - 0 = y\,dx$, and
+\item $v = C - C = 0$ where the sum begins.
+\end{enumerate}
+Therefore, by the first fundamental theorem,
+$$\int y\,dx = \int \left(x^3 + x^2\right)\,dx = \frac{x^4}{4} + \frac{x^3}{3} -C,$$
+where $C$ is a constant.
+
+%Note that here it turns out that 
+%$$\int(x^3+x^2)\,dx = \int x^3\,dx + \int x^2\,dx.$$
+%For according to the previous example, 
+%$$\int x^3\,dx = \frac{x^4}{4} - C_1  \mbox{ and } \int x^2\,dx = \frac{x^3}{3} - C_2,$$
+%and so
+%\setlength{\jot}{1.5ex}
+%\begin{eqnarray*}
+%\int x^3\,dx + \int x^2\,dx & = & \frac{x^4}{4} + \frac{x^3}{3} - C_1 - C_2\\
+%& = & \frac{x^4}{4} + \frac{x^3}{3} - C_3,
+%\end{eqnarray*}
+%where $C_3 = C_1 +C_2$
+%\end{eqnarray*}
+%\setlength{\jot}{\oldjot}
+
+
+% \int x^3\,dx + \int x^2\,dx = \frac{x^4}{4} + \frac{x^3}{3} - C_1 - C_2
+% 
+%This is generally true: for any variable quantities $t$ and $u$,
+%$$\int\!(t+u) = \int\!t + \int\!u.$$
+%For if $t = dv$ and $u = dw$, then 
+%$$d(v+w) = dv + dw = t + u,$$
+%and if we begin the sums when $v=0$ and $w=0$ then we will also begin the sums where $v+w = 0$, and according to the first fundamental theorem,
+%\setlength{\jot}{1.5ex}
+%\begin{eqnarray*}
+%\int\!(t+u) & = & \int\!d(v+w)\\
+%& = & (v+w)\\
+%& = & \int\!dv + \int\!dw\\
+%& = & \int\!t + \int\!u.
+%\end{eqnarray*}
+%\setlength{\jot}{\oldjot}
+%\hspace{-.4em}We might call this the {\em addition rule for sums}.  We could likewise show that for any constant $a$ and any variable $t$
+%$$\int\!at = a\int\!t.$$
+%This could be called {\em constant multiple rule for sums}.
+%
+%We can use these rules, and the rule from the third example, to find sums for many algebraic expressions, as in the following example.
+
+\item
+Let $y = 3x^5 - 8x^2 + 4.$. Suppose we want to find $\int y\,dx$.
+First we may simplify by breaking the sum up into three parts
+$$\int\!y\,dx =  3\int\!x^5\,dx- 8\int\!x^2\,dx + 4\int\!x^0\,dx$$
+We may find each of the three sums on the right by using the general formula in example~\ref{intxn}:
+$$\int\!x^5\,dx = \frac{x^6}{6} -C_1\mbox{, }int\!x^3\,dx = \frac{x^4}{4}-C_2\mbox{, and } nt\!x^1\,dx = \frac{x^2}{2} - C_3,$$
+where $C_1$, $C_2$, and $C_3$ are constants.  Therefore
+\setlength{\jot}{1.5ex}
+\begin{eqnarray*}
+\int\!y\,dx & = & 3\int\!x^5\,dx- 8\int\!x^2\,dx + 4\int\!x^0\,dx\\
+& = & 3(\frac{x^6}{6} - C_1) - 8(\frac{x^3}{3}-C_3)  + 4(\frac{x^1}{1} - C_3)\\
+& = & \frac{x^6}{2} - \frac{8x^3}{3} + 4x.
+\end{eqnarray*}
+\setlength{\jot}{\oldjot}
+
+\item
+Let 
+$$y = 2\sqrt{x} - 8x^{\frac{5}{3}}.$$
+Then
+\setlength{\jot}{2ex}
+\begin{eqnarray*}
+\int\!y\,dx & = & 2\int\!x^{\frac{1}{2}}\,dx - 8\int\!x^{\frac{5}{3}}\,dx\\
+& = & 2\left(\frac{x^{\frac{3}{2}}}{\frac{3}{2}}\right) - 8\left(\frac{x^{\frac{8}{3}}}{\frac{8}{3}}\right)\\
+& = & \frac{4x^{\frac{3}{2}}}{3} - 3x^{\frac{8}{3}}.
+\end{eqnarray*}
+\setlength{\jot}{\oldjot}
+\end{enumerate}
+
