@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+    \begin{tikzpicture}
+    \begin{axis}[axis line style={black!55},
+%    title={$v=x^3-6x^2+9x$},
+      xlabel=$x$,
+      ylabel=$v$,
+      axis lines=middle,
+      ymin=-1,
+      ymax=4,
+      xmin=-2.5,
+      xmax=2.5,
+      xtick distance=1, ytick distance=1,
+      width=5in, height=5in, samples=100, ]
+      \addplot[] {x^2 + 2};
+      \node [] at (2,3.5)  {$v=x^2 + 2$};
+      \addplot[] coordinates {(-1,3) (-1,0)}
+      [every node/.style={xshift=-18pt,yshift=-8pt}, sloped,]
+       node [pos=0.6] {\rotatebox{0}{\small (ordinate)}};
+       \node at (-1.25,3) {\textsf{V}};
+       \node at (-0.8,0.13) {\textsf{X}};
+       \node at (0.65,0.15) {\textsf{B}};
+       \addplot[] coordinates {(-1,3) (0.5,0)}
+       [every node/.style={xshift=-7pt,yshift=-8pt},sloped]
+       node [pos=.5] {\small (tangent)};
+       \addplot[line width=0.8pt] coordinates {(-1,3) (0.5,0)};
+    \end{axis}
+  \end{tikzpicture}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
