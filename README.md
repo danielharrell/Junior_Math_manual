@@ -5,6 +5,7 @@
 - A number of errors corrected from Greg Recco's 2021 archon report.
 - A figure from the "New Method" paper has replaced a figure from the "Hanging Chain" paper on the cover of the manual.
 - Spaces on either side of em-dashes ("---") have been deleted.
+- Added `Alternate_text` and `figs_unused` folders. Put relevant files in those folders.
 
 ## To Do
 - See if notes can be separated from text to produce separate manuals for readings and commentary.
