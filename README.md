@@ -11,3 +11,4 @@
 ## To Do
 - See if notes can be separated from text to produce separate manuals for readings and commentary.
 - Replace handdrawn figures for $v=x^2+2$ (figs 20 and 24) with TikZ pictures.
+- Find other formatting issues to improve.
