@@ -7,7 +7,7 @@
 - A figure from the "New Method" paper has replaced a figure from the "Hanging Chain" paper on the cover of the manual.
 - Spaces on either side of em-dashes ("---") have been deleted.
 - Added `Alternate_text` and `figs_unused` folders. Put relevant files in those folders.
-- Replaced hand-drawn figure for first finding-tangent example to a TikZ picture.
+- Replaced hand-drawn figure for first finding-tangent example with a TikZ picture.
 ## To Do
 - See if notes can be separated from text to produce separate manuals for readings and commentary.
 - Replace handdrawn figures for $v=x^2+2$ (figs 20 and 24) with TikZ pictures.
