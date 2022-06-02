@@ -1,13 +1,11 @@
 # Junior_Math_manual
  The current Junior Math manual used at St. John's College, Annapolis
 
-## Edits
-### For 2022 manual
+## Edits ### For 2022 manual
 - Commented out `pdfcprot` (line 37); deprecated package.	
 - Corrected a number of errors from the list in Greg Recco's 2021 archon report.
-- Followed a suggestion of the 2021 report to replace a figure from the "Hanging Chain" paper with a figure from the "New Method" paper (Figure 1) for the cover of the manual. Also rotated the image of
-the "New Method" figure and put it in `fig` folder (`Figure2B.png`)
-- Spaces on either side of em-dashes ("---") have been deleted from several Leibniz papers.
+- Followed a suggestion of the 2021 report to replace a figure from the "Hanging Chain" paper (no longer read) with a figure from the "New Method" paper (Figure 1) for the cover of the manual. Also rotated the image of the "New Method" figure and put it in `fig` folder (`Figure2B.png`)
+- Deleted spaces on either side of em-dashes ("---") from several Leibniz papers to improve typesetting.
 - Created more space between equation and footnote line, page 22.
 - Moved code for figure 39 down a paragraph to put figure on page with text.
 - Added `Alternate_text` and `figs_unused` folders. Put relevant files in those folders.
@@ -19,7 +17,7 @@ the "New Method" figure and put it in `fig` folder (`Figure2B.png`)
 - Reduced space between items in enumerated lists.
 - Reduced spacing between integral sign and terms in online integral expressions.
 - Put in spacing where lacking in certain places.
-- Enlarged parentheses in display size expressions and equations.
+- Enlarged parentheses in display size expressions and equations.  
 ## To Do
 - See if notes can be separated from text to produce separate manuals for readings and commentary.
 - See if `\documentclass` of manual can be changed to `memoir`.
