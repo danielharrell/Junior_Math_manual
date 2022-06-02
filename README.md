@@ -4,9 +4,9 @@
 ## Edits
 ### For 2022 manual
 - Commented out `pdfcprot` (line 37); deprecated package.	
-- A number of errors corrected from the list in Greg Recco's 2021 archon report.
-- A figure from the "New Method" paper (Figure 1) has replaced a figure from the "Hanging Chain" paper on the cover of the manual. Rotated image of
-figure and put in `fig` folder (`Figure2B.png`)
+- Corrected a number of errors from the list in Greg Recco's 2021 archon report.
+- Followed a suggestion of the 2021 report to replace a figure from the "Hanging Chain" paper with a figure from the "New Method" paper (Figure 1) for the cover of the manual. Also rotated the image of
+the "New Method" figure and put it in `fig` folder (`Figure2B.png`)
 - Spaces on either side of em-dashes ("---") have been deleted from several Leibniz papers.
 - Created more space between equation and footnote line, page 22.
 - Moved code for figure 39 down a paragraph to put figure on page with text.
