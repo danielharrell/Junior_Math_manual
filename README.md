@@ -3,6 +3,7 @@
 
 ## Edits 
 ### For 2022 manual
+- Reformatted Table of Contents for better typesetting.
 - Commented out `pdfcprot` (line 37); deprecated package.	
 - Corrected a number of errors from the list in Greg Recco's 2021 archon report.
 - Followed a suggestion of the 2021 report to replace a figure from the "Hanging Chain" paper (no longer read) with a figure from the "New Method" paper (Figure 1) for the cover of the manual. Also rotated the image of the "New Method" figure and put it in `fig` folder (`Figure2B.png`)
@@ -27,3 +28,4 @@
 - [ ] Replace `$$` with `\[`,`\]` in LaTeX code.
 - [ ] Find other outdated code to update or comment out.
 - [ ] Replace Figure 1 in Set Theory text with TikZ picture.
+- [ ] Reformat Table of Contents to look nicer, along with section headings and the like.
