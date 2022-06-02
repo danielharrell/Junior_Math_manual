@@ -21,6 +21,8 @@ figure and put in `fig` folder (`Figure2B.png`)
 - Enlarged parentheses in display size expressions and equations.
 ## To Do
 - See if notes can be separated from text to produce separate manuals for readings and commentary.
+- See if `\documentclass` of manual can be changed to `memoir`.
 - Replace handdrawn figures for $v=x^2+2$ (figs 20 and 24) with TikZ pictures.
 - Find other formatting issues to improve.
-- Replace `$$` with `\[`,`\]` in \LaTeX code.
+- Replace `$$` with `\[`,`\]` in LaTeX code.
+- Replace Figure 1 in Set Theory text with TikZ picture.
