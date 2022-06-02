@@ -4,11 +4,14 @@
 ## Edits
 ### For 2022 manual
 - A number of errors corrected from the list in Greg Recco's 2021 archon report.
-- A figure from the "New Method" paper has replaced a figure from the "Hanging Chain" paper on the cover of the manual.
-- Spaces on either side of em-dashes ("---") have been deleted.
+- A figure from the "New Method" paper (Figure 1) has replaced a figure from the "Hanging Chain" paper on the cover of the manual. Rotated image of
+figure and put in `fig` folder (`Figure2B.png`)
+- Spaces on either side of em-dashes ("---") have been deleted from several Leibniz papers.
 - Created more space between equation and footnote line, page 22.
+- Introduced `\newpage` before theorem about the value of $e$ (page 93-4).
+- Moved code for figure 39 down a paragraph to put figure on page with text.
 - Added `Alternate_text` and `figs_unused` folders. Put relevant files in those folders.
-- Replaced hand-drawn figure for first finding-tangent example (fig. 28) with a TikZ picture.
+- Replaced hand-drawn figure for first finding-tangent example (fig.~28, p.~72) with a TikZ picture.
 ## To Do
 - See if notes can be separated from text to produce separate manuals for readings and commentary.
 - Replace handdrawn figures for $v=x^2+2$ (figs 20 and 24) with TikZ pictures.
