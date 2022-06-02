@@ -3,6 +3,7 @@
 
 ## Edits
 ### For 2022 manual
+- Commented out `pdfcprot` (line 37); deprecated package.	
 - A number of errors corrected from the list in Greg Recco's 2021 archon report.
 - A figure from the "New Method" paper (Figure 1) has replaced a figure from the "Hanging Chain" paper on the cover of the manual. Rotated image of
 figure and put in `fig` folder (`Figure2B.png`)
@@ -25,4 +26,5 @@ figure and put in `fig` folder (`Figure2B.png`)
 - Replace handdrawn figures for $v=x^2+2$ (figs 20 and 24) with TikZ pictures.
 - Find other formatting issues to improve.
 - Replace `$$` with `\[`,`\]` in LaTeX code.
+- Find other outdated code to update or comment out.
 - Replace Figure 1 in Set Theory text with TikZ picture.
