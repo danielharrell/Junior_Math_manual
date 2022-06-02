@@ -22,6 +22,16 @@
 \usepackage{enumerate}
 \usepackage{fancyhdr}
 
+%\usepackage{tocloft} May use later to reformat table of contents
+
+% Code below (l.27-31) produces left-justified chapter numbers in table of contents
+\makeatletter
+\renewcommand*{\numberline}[1]{%
+  \hb@xt@\@tempdima{\hfil#1 }%
+}
+\makeatother
+
+
 \newcommand{\sce}{\stepcounter{enumi}}
 \newcommand{\sceii}{\stepcounter{enumii}}
 \newtheorem{theorem}{Theorem}
@@ -762,7 +772,7 @@ the rigor of the sciences against the Pyrrhonists.
 \newpage
 
 \section*{Notes on Leibniz's ``An Approach to the Arithmetic of Infinites''}
-\acl{Notes on Leibniz's ``An Approach to the Arithmetic of Infinites''}
+\acl{Notes on Leibniz's ``An Approach to the Arithmetic\\ of Infinites''}
 
 Leibniz wrote this paper for the {\em Journal des S\c{c}avans} (Journal of the Learned) in late 1672.   The paper is written in Latin, and we have translated it from a text published in 1976 in an edition of Leibniz's collected works put out by the Berlin Academy of Sciences, the  {\em S\"{a}mtliche Schriften und Briefe} (Collected Writings and Letters), in Series~III, Volume~1, on pages 1--20. 
 
@@ -3914,7 +3924,7 @@ following differences.
   Infinites\marginnote{\normalfont\small\sffamily Note 1,
     p.~\pageref{crg1}}}
 % \addcontentsline{toc}{section}{\protect\numberline{4}{Leibniz: On Recondite
-\acl{Leibniz: On Recondite Geometry and the Analysis of\\ Indivisibles and Infinites}
+\acl{Leibniz: On Recondite Geometry and the Analysis\\ of Indivisibles and Infinites}
 
 \noindent {\large by Gottfried Wilhelm Leibniz}
 \vspace{2ex}  
@@ -8942,7 +8952,7 @@ solved analytically by integrating the given equations. \vspace{2ex}
   Square.\marginnote{\normalfont\small\sffamily Note 1,
     p.~\pageref{ctp1}}}
 %\addcontentsline{toc}{section}{\protect\numberline{12}{Leibniz: On the True Proportion
-\acl{Leibniz: On the True Proportion of a Circle to a Circumscribed Square}\label{begtp}
+\acl{Leibniz: On the True Proportion of a Circle\\ to a Circumscribed Square}\label{begtp}
 
 \noindent {\large by Gottfried Wilhelm Leibniz}
 \vspace{2ex}
@@ -9936,11 +9946,11 @@ Therefore the area of the circle is not less than $K$.
 Since then the area of the circle is neither greater nor less than
 $K$, it is equal to it.
 
-\section*{CONTINUITY AND IRRATIONAL\\ NUMBERS\footnote{1872. English
+\section*{Continuity and Irrational Numbers\footnote{1872. English
     translation by W.~W.~Beman (1901).  Subsequent footnotes are in
     the original text.}}
 %\addcontentsline{toc}{section}{\protect\numberline{14}{Dedekind,
-\acl{Dedekind: Continuity and Irrational Numbers}
+\acl{Dedekind: \emph{Continuity and Irrational Numbers}}
 
 \noindent {\large by Richard Dedekind}
 \vspace{2ex}
@@ -10693,9 +10703,9 @@ principle of continuity and infinitesimal analysis.
 \setcounter{equation}{0}
 \setcounter{footnote}{0}
 
-\section*{Notes on Dedekind's ``Continuity and Irrational Numbers"}
+\section*{Notes on Dedekind's \emph{Continuity and Irrational Numbers}}
 %\addcontentsline{toc}{section}{\protect\numberline{15}{Notes on
-\acl{Notes on Dedekind's ``Continuity and Irrational Numbers"}
+\acl{Notes on Dedekind's \emph{Continuity and Irrational Numbers}}
 
 % \subsection*{Errata}
 
