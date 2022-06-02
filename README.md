@@ -6,6 +6,7 @@
 - A number of errors corrected from the list in Greg Recco's 2021 archon report.
 - A figure from the "New Method" paper has replaced a figure from the "Hanging Chain" paper on the cover of the manual.
 - Spaces on either side of em-dashes ("---") have been deleted.
+- Created more space between equation and footnote line, page 22.
 - Added `Alternate_text` and `figs_unused` folders. Put relevant files in those folders.
 - Replaced hand-drawn figure for first finding-tangent example (fig. 28) with a TikZ picture.
 ## To Do
