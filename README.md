@@ -3,15 +3,15 @@
 
 ## Edits 
 ### For 2022 manual
-- Reformatted Table of Contents for better typesetting.
-- Commented out `pdfcprot` (line 37); deprecated package.	
 - Corrected a number of errors from the list in Greg Recco's 2021 archon report.
 - Followed a suggestion of the 2021 report to replace a figure from the "Hanging Chain" paper (no longer read) with a figure from the "New Method" paper (Figure 1) for the cover of the manual. Also rotated the image of the "New Method" figure and put it in `fig` folder (`Figure2B.png`)
+- Replaced hand-drawn figure for first finding-tangent example (fig.~28, p.~72) with a TikZ picture.
+- Reformatted Table of Contents for better typesetting.
 - Deleted spaces on either side of em-dashes ("---") from several Leibniz papers to improve typesetting.
 - Created more space between equation and footnote line, page 22.
 - Moved code for figure 39 down a paragraph to put figure on page with text.
+- Commented out `pdfcprot` (line 37); deprecated package.	
 - Added `Alternate_text` and `figs_unused` folders. Put relevant files in those folders.
-- Replaced hand-drawn figure for first finding-tangent example (fig.~28, p.~72) with a TikZ picture.
 - Replaced 'and' with semicolon to reformat lines on pages 123 and 124.
 - Added page reference to Figure 16 (on p. 127; figure on p. 129).
 - Deleted repitition of Figure 15 (pp. 128-30).
