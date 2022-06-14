@@ -19,7 +19,7 @@
 - Deleted repitition of Figure 15 (pp. 128-30).
 - Made all "QEDs" consistent in format (`\textsc{q.e.d.}`)
 - Reduced space between items in enumerated lists.
-- Reduced spacing between integral sign and terms in online integral expressions.
+- Reduced spacing between integral sign and terms in inline integral expressions.
 - Put in spacing where lacking in certain places.
 - Enlarged parentheses in display size expressions and equations.  
 #### Code
