@@ -7,7 +7,7 @@
  <summary>Click to read</summary>
  
 #### Typesetting
-- Corrected a number of errors from the list in Greg Recco's 2021 archon report.
+- Corrected a number of errors from the list in 2021 archon report.
 - Followed a suggestion of the 2021 report to replace a figure from the "Hanging Chain" paper (no longer read) with a figure from the "New Method" paper (Figure 1) for the cover of the manual. Also rotated the image of the "New Method" figure and put it in `fig` folder (`Figure2B.png`)
 - Replaced hand-drawn figure for first finding-tangent example (fig.~28, p.~72) with a TikZ picture.
 - Reformatted Table of Contents for better typesetting.
