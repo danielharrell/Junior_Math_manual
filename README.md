@@ -3,6 +3,9 @@
 
 ## Edits 
 ### For 2022 manual
+<details>
+ <summary>Click to read</summary>
+ 
 #### Typesetting
 - Corrected a number of errors from the list in Greg Recco's 2021 archon report.
 - Followed a suggestion of the 2021 report to replace a figure from the "Hanging Chain" paper (no longer read) with a figure from the "New Method" paper (Figure 1) for the cover of the manual. Also rotated the image of the "New Method" figure and put it in `fig` folder (`Figure2B.png`)
@@ -23,7 +26,12 @@
 - Commented out `pdfcprot` (line 37); deprecated package.
 #### Files	
 - Added `Alternate_text` and `figs_unused` folders. Put relevant files in those folders.
+</details>
+
 ## To Do
+<details>
+ <summary>Click to read</summary>
+ 
 ### Typesetting
 - [ ] Separate notes from text to produce separate manuals for readings and commentary.
 - [ ] Replace handdrawn figures for $v=x^2+2$ (figs 20 and 24) with TikZ pictures.
@@ -35,4 +43,4 @@
 - [ ] Replace `$$` with `\[`,`\]` in LaTeX code.
 - [ ] Find other outdated code to update or comment out.
 - [ ] Replace `{center}` environment in figures with `\centering` command
-
+</details>
