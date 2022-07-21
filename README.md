@@ -38,6 +38,7 @@
 - [ ] Find other formatting issues to improve.
 - [ ] Replace Figure 1 in Set Theory text with TikZ picture.
 - [ ] Reformat Table of Contents to look nicer, along with section headings and the like.
+- [ ] Correct cross-references (to Dedekind, etc.) in Cantor text.
 ### Code
 - [ ] Change `\documentclass` of manual from `article` to `memoir`; make other changes as needed.
 - [ ] Replace `$$` with `\[`,`\]` in LaTeX code.
