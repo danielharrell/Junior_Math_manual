@@ -34,6 +34,7 @@
  
 ### Errors to correct
 - [ ] Page 216, line 10: replace a with alpha.
+- [ ] Delete hyperreals reference in set theory text.
 ### Typesetting
 - [ ] Separate notes from text to produce separate manuals for readings and commentary.
 - [ ] Replace handdrawn figures for $v=x^2+2$ (figs 20 and 24) with TikZ pictures.
