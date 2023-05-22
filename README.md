@@ -1,7 +1,12 @@
 # Junior_Math_manual
  The current Junior Math manual used at St. John's College, Annapolis
 
-## Edits 
+## Edits
+### For 2023 manual
+#### Typesetting
+#### Code
+- Updated code for greek font to `\foreignlanguage` from `\selectlanguage`.
+
 ### For 2022 manual
 <details>
  <summary>Click to read</summary>
