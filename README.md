@@ -28,11 +28,16 @@
 - Added `Alternate_text` and `figs_unused` folders. Put relevant files in those folders.
 </details>
 
+### For 2023 manual
+#### Typesetting
+- Corrected a number of errors in 2022 manual.
+
 ## To Do
 <details>
  <summary>Click to read</summary>
  
 ### Errors to correct
+- [X] Page 1 line 11: comma after “then”.
 - [ ] Page 216, line 10: replace a with alpha.
 - [ ] Delete hyperreals reference in set theory text.
 ### Typesetting
