@@ -4,6 +4,7 @@
 ## Edits
 ### For 2023 manual
 #### Typesetting
+- Corrected a number of punctuation errors from the 2022 manual.
 #### Code
 - Updated code for greek font to `\foreignlanguage` from `\selectlanguage`.
 
