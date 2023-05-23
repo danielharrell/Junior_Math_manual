@@ -7,6 +7,7 @@
 - Corrected a number of punctuation and formatting errors from the 2022 manual.
 #### Content
 - Rewrote parenthetical paragraph in appendix on transcendence of circle's quadratrix to correct error and clarify how line AMC is a cosine curve. 
+- Deleted paragraph in set theory text on hyperreal numbers. (The cardinality given for those numbers was incorrect.)
 #### Code
 - Updated code for greek font to `\foreignlanguage` from `\selectlanguage`.
 
