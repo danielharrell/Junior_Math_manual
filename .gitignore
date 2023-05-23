@@ -5,5 +5,5 @@
 *.out
 *.synctex*
 *.toc
-# *.pdf
+*.pdf
 .DS_Store
