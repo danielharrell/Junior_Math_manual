@@ -5,6 +5,8 @@
 ### For 2023 manual
 #### Typesetting
 - Corrected a number of punctuation and formatting errors from the 2022 manual.
+#### Content
+- Rewrote parenthetical paragraph in appendix on transcendence of circle's quadratrix to correct error and clarify how line AMC is a cosine curve. 
 #### Code
 - Updated code for greek font to `\foreignlanguage` from `\selectlanguage`.
 
