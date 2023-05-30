@@ -8,6 +8,7 @@
 #### Content
 - Rewrote parenthetical paragraph in appendix on transcendence of circle's quadratrix to correct error and clarify how line AMC is a cosine curve. 
 - Deleted paragraph in set theory text on hyperreal numbers. (The cardinality given for those numbers was incorrect.)
+- Added simpler proof in footnote for similarity of triangles in Note 13 of Leibniz "Recondite" paper.
 #### Code
 - Updated code for greek font to `\foreignlanguage` from `\selectlanguage`.
 
