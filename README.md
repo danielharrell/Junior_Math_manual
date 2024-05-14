@@ -2,6 +2,8 @@
  The current Junior Math manual used at St. John's College, Annapolis
 
 ## Edits
+### For 2024 manual
+- 2023 manual never printed; for 2024 only change is to year on cover page.
 ### For 2023 manual
 #### Typesetting
 - Corrected a number of punctuation and formatting errors from the 2022 manual.
